@@ -1,0 +1,32 @@
+
+.something {
+	display: block;
+	width: 300px;
+	height: 100px;
+}
+
+@media screen and (min-width: 600px) {
+	.something {
+		width: 600px;
+		height: 400px;
+	}
+}
+
+.some-other {
+	display: inline-block;
+	background: yellow;
+}
+
+@media screen and (max-width: 600px) {
+	.something {
+		width: 100px;
+		height: 200px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.something-else {
+		width: 300px;
+		height: 500px;
+	}
+}
